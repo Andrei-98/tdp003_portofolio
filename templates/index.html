@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block title %} <title>Home</title> {% endblock title %}
+{% block content %}
+<div class="jumbotron">
+  <div class="center">
+    <img class="avatar" src="/static/images/self.jpg" style="border-radius:40%" width="40%">
+    <h3 class="name">Andrei Plotoaga</h3>
+    <hr class="break">
+    <h5>Innovative Programming student at Linköping University</h5><br>
+    <p>Aspiring software developer with a love for anything computer related. I like to break things down, see how they work and then put them back together.</p>
+
+    <div class="name">
+    <div class="buttons">
+      <a class="hyperlink" href="https://gitlab.liu.se/kasni325">
+	<button type="button" class="btn btn-primary">
+	  GitLab</button>
+      </a>
+    </div>
+
+    <div class="buttons">
+      <a class="hyperlink" href="https://www.linkedin.com/in/kasper-nilsson-6148671a5">
+	<button type="button" class="btn btn-primary">LinkedIn</button>
+      </a>
+    </div>
+
+    <div class="buttons">
+      <a class="hyperlink" href="https://github.com/kani95">
+	<button type="button" class="btn btn-primary">GitHub</button>
+      </a>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock content %}
