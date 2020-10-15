@@ -58,11 +58,6 @@ def index():
     '''
     return render_template("index.html")
 
-#def show_project(id):
-  #  global db
-#    db = load_json()
-#    pass
-
 
 
 @app.route("/list")
