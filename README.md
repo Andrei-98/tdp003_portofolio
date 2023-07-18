@@ -20,7 +20,7 @@ To read more about the required software for running this and how to install the
 
 # Package-structure
 Press the "display source" button to view the structure properly!!
-
+```
 my-portofolio/
 ├── data.json
 ├── data.py
@@ -63,5 +63,4 @@ my-portofolio/
     ├── list.html
     ├── project.html
     └── techniques.html
-
-
+```
